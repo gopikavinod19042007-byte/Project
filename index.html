@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hand Raise Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1> Hand Raise Detection System</h1>
+
+    <div class="video-box">
+        <img src="{{ url_for('video_feed') }}">
+    </div>
+
+    <div class="info">
+        <h2>Real-Time Detection</h2>
+        <p>Raise your hand in front of the webcam.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
